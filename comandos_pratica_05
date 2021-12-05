@@ -1,0 +1,249 @@
+    1  clear
+    2  cd /
+    3  clear
+    4  mkdir documentos/
+    5  cd documentos/
+    6  touch buginganga.txt organograma.odc
+    7  mkdir Documentos
+    8  touch Documentos/credores.xls Documentos/contas_pagar.odc
+    9  la
+   10  ll
+   11  clear
+   12  ls -lh
+   13  ls -l
+   14  clear
+   15  ls -l
+   16  clear
+   17  ls -l
+   18  clear
+   19  echo Item 1 >> saidas_pratica_05
+   20  cat saidas_pratica_05 
+   21  ls -l >> saidas_pratica_05 
+   22  cat saidas_pratica_05 
+   23  chmod --help
+   24  clear
+   25  chmod g+w buginganga.txt 
+   26  ls -l
+   27  mv saidas_pratica_05 ../
+   28  ls -l
+   29  clear
+   30  ls -l >> ../saidas_pratica_05 
+   31  cat ../saidas_pratica_05 
+   32  cd ..
+   33  ls
+   34  rm saidas_pratica_05 
+   35  rm -r documentos/
+   36  ls
+   37  ls doc*
+   38  ls ^doc
+   39  ls ^l
+   40  ls li*
+   41  clear
+   42  touch saidas_pratica_05
+   43  mkdir documentos
+   44  cd documentos/
+   45  touch buginganga.txt organograma.odc
+   46  mkdir Documentos
+   47  touch Documentos/credores.xls
+   48  touch Documentos/contas_pagar.odc
+   49  clear
+   50  ls -r
+   51  ls -R
+   52  clear
+   53  ls *
+   54  clear
+   55  echo Item 1 >> ../saidas_pratica_05 
+   56  ls -l >> ../saidas_pratica_05 
+   57  cat ../saidas_pratica_05 
+   58  chmod g+w buginganga.txt 
+   59  echo Item 2 >> ../saidas_pratica_05 
+   60  cat ../saidas_pratica_05 
+   61  ls -l
+   62  ls -l >> ../saidas_pratica_05 
+   63  cat ../saidas_pratica_05 
+   64  clear
+   65  chmod g-w buginganga.txt 
+   66  echo Item 3 >> ../saidas_pratica_05 
+   67  ls -l >> ../saidas_pratica_05 
+   68  ls -l
+   69  chmod -R o+w Documentos/
+   70  echo Item 4.1 >> ../saidas_pratica_05 
+   71  ls -l >> ../saidas_pratica_05 
+   72  cat ../saidas_pratica_05 
+   73  echo Item 4.2 >> ../saidas_pratica_05 
+   74  ls -l Documentos/ >> ../saidas_pratica_05 
+   75  cat ../saidas_pratica_05 
+   76  touch a
+   77  echo a\n\nb >> a
+   78  a
+   79  cat a
+   80  echo "a\n\nb" >> a
+   81  cat a
+   82  echo "hello\nwordl"
+   83  echo -e "hello\nwordl"
+   84  printf "a\n" > a
+   85  cat a
+   86  printf "b\n" > a
+   87  cat a
+   88  printf "ba\n" >> a
+   89  cat a
+   90  printf "ba\n\n\n" >> a
+   91  cat a
+   92  rm a
+   93  clear
+   94  cd ..
+   95  rm -r documentos/
+   96  mkdir documentos
+   97  cd documentos/
+   98  touch buginganga.txt organograma.odc
+   99  mkdir Documentos
+  100  cd Documentos/credores.xls
+  101  touch Documentos/credores.xls
+  102  touhc Documentos/contas_pagar.odc
+  103  touch Documentos/contas_pagar.odc
+  104  ls *
+  105  clear
+  106  touch a
+  107  rm a
+  108  clear
+  109  echo Item 1 > ../saidas_pratica_05 
+  110  cat ../saidas_pratica_05 
+  111  ls -l >> ../saidas_pratica_05 
+  112  cat ../saidas_pratica_05 
+  113  echo Item 1 > ../saidas_pratica_05 
+  114  cat ../saidas_pratica_05 
+  115  clear
+  116  chmod g+w buginganga.txt 
+  117  ls -l >> ../saidas_pratica_05 
+  118  cat ../saidas_pratica_05 
+  119  echo Item 1 > ../saidas_pratica_05 
+  120  clear
+  121  ls -l >> ../saidas_pratica_05 
+  122  cat ../saidas_pratica_05 
+  123  chmod g+w buginganga.txt 
+  124  printf "\nItem 2" >> ../saidas_pratica_05 
+  125  cat ../saidas_pratica_05 
+  126  chmod g+w buginganga.txt 
+  127  ls -l
+  128  ls -l >> ../saidas_pratica_05 
+  129  cat ../saidas_pratica_05 
+  130  cat ../saidas_pratica_05 | head -n 5
+  131  cat ../saidas_pratica_05 | head -n 5 > ../saidas_pratica_05 
+  132  cat ../saidas_pratica_05 
+  133  cat ../saidas_pratica_05 ]
+  134  cat ../saidas_pratica_05 
+  135  clear
+  136  echo Item 1 >> ../saidas_pratica_05 
+  137  ls -l >> ../saidas_pratica_05 
+  138  ls
+  139  ls -l
+  140  cat ../saidas_pratica_05 
+  141  clear
+  142  cat ../saidas_pratica_05 
+  143  clear
+  144  ls
+  145  clear
+  146  cat ../saidas_pratica_05 
+  147  clear
+  148  echo -e "\nItem 2" >> ../saidas_pratica_05 
+  149  cat ../saidas_pratica_05 
+  150  chmod g+w buginganga.txt 
+  151  ls -l >> ../saidas_pratica_05 
+  152  cat ../saidas_pratica_05 
+  153  clear
+  154  chmod g-w buginganga.txt 
+  155  echo -e "\nItem 3" >> ../saidas_pratica_05 
+  156  ls -l >> ../saidas_pratica_05 
+  157  cat ../saidas_pratica_05 
+  158  echo -e "\nItem 4.1" >> ../saidas_pratica_05 
+  159  chmod -R o+w Documentos/
+  160  ls -l
+  161  ls -l >> ../saidas_pratica_05 
+  162  cat ../saidas_pratica_05 
+  163  echo -e "\nItem 4.2" >> ../saidas_pratica_05 
+  164  ls -l Documentos/
+  165  ls -l Documentos/ >> ../saidas_pratica_05 
+  166  cat ../saidas_pratica_05 
+  167  clear
+  168  echo -e "\nItem 5" >> ../saidas_pratica_05 
+  169  chmod 600 organograma.odc 
+  170  ls -l
+  171  ls -l >> ../saidas_pratica_05 
+  172  cat ../saidas_pratica_05 
+  173  groupadd administracao
+  174  groupadd contabilidade
+  175  ls -l
+  176  chgrp --help
+  177  echo -e "\nItem 6" >> ../saidas_pratica_05 
+  178  cat ../saidas_pratica_05 
+  179  clear
+  180  chgrp -v contabilidade buginganga.txt 
+  181  ls -l
+  182  ls -l >> ../saidas_pratica_05 
+  183  cat ../saidas_pratica_05 
+  184  ls -l
+  185  cat ../saidas_pratica_05 
+  186  cat -n ../saidas_pratica_05 
+  187  cat -n 34 ../saidas_pratica_05 
+  188  cat -n 34 ../saidas_pratica_05 | head -n 34
+  189  cat -n 34 ../saidas_pratica_05 | head -n 34 | cat >> b
+  190  cat -n 34 ../saidas_pratica_05 | head -n 34 | cat 
+  191  cat -n 34 ../saidas_pratica_05 | head -n 34
+  192  cat ../saidas_pratica_05 | head -n 34
+  193  cat ../saidas_pratica_05 | head -n 34 > b
+  194  cat b
+  195  cat -n b
+  196  clear
+  197  mv b saidas_praticas_05
+  198  mv saidas_praticas_05 ../
+  199  ls
+  200  cat ../saidas_praticas_05 | head -n 34 > b
+  201  b
+  202  cat b
+  203  rm b
+  204  clear
+  205  cat -n ../saidas_praticas_05 
+  206  echo -e "\nItem 6" >> ../saidas_praticas_05 
+  207  cat ../saidas_praticas_05 
+  208  ls -l 
+  209  ls -l  >> ../saidas_praticas_05 
+  210  cat ../saidas_praticas_05 
+  211  chgrp -v contabilidade buginganga.txt 
+  212  clear
+  213* 
+  214  echo -e "\nItem 7" >> ../saidas_praticas_05 
+  215  ls -l  >> ../saidas_praticas_05 
+  216  cat ../saidas_praticas_05 
+  217  clear
+  218  chgrp administracao buginganga.txt 
+  219  ls -l
+  220  echo -e "\nItem 8" >> ../saidas_praticas_05 
+  221  ls -l  >> ../saidas_praticas_05 
+  222  cat ../saidas_praticas_05 
+  223  chgrp administracao Documentos/
+  224  ls -l
+  225  echo -e "\nItem 9" >> ../saidas_praticas_05 
+  226  ls -l  >> ../saidas_praticas_05 
+  227  cat ../saidas_praticas_05 
+  228  useradd aluno1
+  229  useradd aluno2
+  230  ls -l
+  231  clear
+  232  cat ../saidas_praticas_05 
+  233  echo -e "\nItem 10" >> ../saidas_praticas_05 
+  234  cat ../saidas_praticas_05 
+  235  ls -l  >> ../saidas_praticas_05 
+  236  cat ../saidas_praticas_05 
+  237  chown aluno1 organograma.odc 
+  238  ls -l
+  239  echo -e "\nItem 11" >> ../saidas_praticas_05 
+  240  ls -l  >> ../saidas_praticas_05 
+  241  cat ../saidas_praticas_05 
+  242  chown aluno2:contabilidade organograma.odc 
+  243  ls -l
+  244  echo -e "\nItem 12" >> ../saidas_praticas_05 
+  245  cat ../saidas_praticas_05 
+  246  ls -l  >> ../saidas_praticas_05 
+  247  cat ../saidas_praticas_05 
+  248  clear
+  249  history >> comandos_pratica_05
